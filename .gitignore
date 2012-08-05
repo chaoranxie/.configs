@@ -1,0 +1,56 @@
+#More sample can be found here
+#https://github.com/github/gitignore
+
+# generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+
+#rails specific
+*.sqlite3
+config/database.yml
+log/*
+tmp/*
+
+#java specific
+*.class
+
+#python specific
+*.pyc
+
+#ruby
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+#SVN
+.svn/
+
+#Windows
+# Windows image file caches
+Thumbs.db 
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
